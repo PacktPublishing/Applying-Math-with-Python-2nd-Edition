@@ -6,8 +6,8 @@ y = x*x
 
 fig, ax = plt.subplots()
 ax.plot(x, y)
-ax.set_title("Graph of $y=x^2$", usetex=True)
-ax.set_xlabel("$x$", usetex=True)
-ax.set_ylabel("$y$", usetex=True)
-
+ax.set_title("Graph of $y=x^2$")
+ax.set_xlabel("$x$")
+ax.set_ylabel("$y$")
+fig.savefig("savingfigs.png", dpi=300)
 plt.show()
