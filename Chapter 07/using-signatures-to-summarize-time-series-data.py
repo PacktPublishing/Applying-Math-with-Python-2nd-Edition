@@ -6,11 +6,11 @@ from numpy.random import default_rng
 rng = default_rng(12345)
 
 upper_limit = 2*np.pi
-count = 100
-scale = 2*np.pi/100
+depth = 2
+noise_variance = 0.1 
 
 def make_noisy(signal):
-    return signal + rng.normal(0.0, 0.1, size=signal.shape)
+    return signal + rng.normal(0.0, noise_variance, size=signal.shape)
 
 
 def signal_a(count):
@@ -20,7 +20,6 @@ def signal_a(count):
 
 def signal_b(count):
     t = rng.exponential(upper_limit/count, size=count).cumsum()
-    #t = np.linspace(0, 2*np.pi, count)
     return t, np.column_stack([np.cos(t), np.sin(t)])
 
 
@@ -57,16 +56,14 @@ signature_b = esig.stream2sig(true_signal_b, 2)
 print(signature_a, signature_b, sep="\n")
 
 
-sigs_a = np.vstack([esig.stream2sig(make_noisy(signal_a(rng.integers(50, 100))[1]), 2) for _ in range(50)])
-sigs_b = np.vstack([esig.stream2sig(make_noisy(signal_b(rng.integers(50, 100))[1]), 2) for _ in range(50)])
+sigs_a = np.vstack([esig.stream2sig(make_noisy(signal_a(rng.integers(50, 100))[1]), depth) for _ in range(50)])
+sigs_b = np.vstack([esig.stream2sig(make_noisy(signal_b(rng.integers(50, 100))[1]), depth) for _ in range(50)])
 
 expected_sig_a = np.mean(sigs_a, axis=0)
 expected_sig_b = np.mean(sigs_b, axis=0)
 print(expected_sig_a, expected_sig_b, sep="\n")
 
 diff = np.abs(expected_sig_a - expected_sig_b)
-#print(diff)
-#print(np.max(diff))
 
 print("Signal a", np.max(np.abs(expected_sig_a - signature_a)))
 print("Signal b", np.max(np.abs(expected_sig_b - signature_b)))
