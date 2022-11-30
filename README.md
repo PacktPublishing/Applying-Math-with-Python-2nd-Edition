@@ -1,5 +1,5 @@
 # Applying Math with Python, 2nd Edition
-<a href="<Packtpub book link>?utm_source=github&utm_medium=repository&utm_campaign=<13-P ISBN>"><img src="https://static.packt-cdn.com/products/<13-P ISBN>/cover/smaller" alt="<Book Name>" height="256px" align="right"></a>
+<a href="<Packtpub book link>?utm_source=github&utm_medium=repository&utm_campaign=<13-P ISBN>"><img src="https://static.packt-cdn.com/products/<13-P ISBN>/cover/smaller" alt="Applying Math with Python, 2nd Edition" height="256px" align="right"></a>
 
 This is the code repository for [<Book name>](<Packtpub book link>?utm_source=github&utm_medium=repository&utm_campaign=<13-P ISBN>), published by Packt.
 
@@ -18,7 +18,7 @@ This book covers the following exciting features:
 * Implement basic mathematical plotting, change plot styles, and add labels to plots using Matplotlib
 * Get to grips with probability theory with the Bayesian inference and Markov Chain Monte Carlo (MCMC) methods
 
-If you feel this book is for you, get your [copy](https://www.amazon.com/dp/<10P ISBN>) today!
+If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1804618373) today!
 
 <a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" alt="https://www.packtpub.com/" border="5" /></a>
 
@@ -52,6 +52,3 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 ## Get to Know the Author
 **Sam Morley**  is an experienced lecturer in mathematics and a researcher in pure mathematics. He is currently a research software engineer at the University of Oxford working on the DataSig project. He was previously a lecturer in mathematics at the University of East Anglia and Nottingham Trent University. His research interests lie in functional analysis, especially Banach algebras. Sam has a firm commitment to providing high-quality, inclusive, and enjoyable teaching, with the aim of inspiring his students and spreading his enthusiasm for mathematics.
-
-**<Author name>** <Author bio>
-
