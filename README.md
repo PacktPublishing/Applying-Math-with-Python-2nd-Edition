@@ -27,7 +27,12 @@ All of the code is organized into folders.
 
 The code will look like the following:
 ```
-<Any code block from the book>
+from decimal import getcontext
+ctx = getcontext()
+num = Decimal('1.1')
+num**4 # Decimal('1.4641')
+ctx.prec=4 # set the new precision
+num**4 # Decimal('1.464')
 
 ```
 
@@ -46,9 +51,9 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 
 ### Related products <Other books you may enjoy>
-* <Book name #1 from backmatter> [[Packt]](<Book link on Packtpub>) [[Amazon]](https://www.amazon.com/dp/<10P-ISBN>)
+* Hands-On Mathematics for Deep Learning [[Packt]](https://www.packtpub.com/product/hands-on-mathematics-for-deep-learning/9781838647292) [[Amazon]](https://www.amazon.com/dp/1838647295)
 
-* <Book name #2 from backmatter> [[Packt]](<Book link on Packtpub>) [[Amazon]](https://www.amazon.com/dp/<10P-ISBN>)
+* Essential Mathematics for Quantum Computing [[Packt]](https://www.packtpub.com/product/essential-mathematics-for-quantum-computing/9781801073141?_ga=2.176321189.1855619319.1669697710-1347501151.1654864057) [[Amazon]](https://www.amazon.com/dp/1801073147)
 
 ## Get to Know the Author
 **Sam Morley**  is an experienced lecturer in mathematics and a researcher in pure mathematics. He is currently a research software engineer at the University of Oxford working on the DataSig project. He was previously a lecturer in mathematics at the University of East Anglia and Nottingham Trent University. His research interests lie in functional analysis, especially Banach algebras. Sam has a firm commitment to providing high-quality, inclusive, and enjoyable teaching, with the aim of inspiring his students and spreading his enthusiasm for mathematics.
