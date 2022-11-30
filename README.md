@@ -33,7 +33,6 @@ num = Decimal('1.1')
 num**4 # Decimal('1.4641')
 ctx.prec=4 # set the new precision
 num**4 # Decimal('1.464')
-
 ```
 
 **Following is what you need for this book:**
