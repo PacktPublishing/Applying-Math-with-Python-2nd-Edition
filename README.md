@@ -56,3 +56,8 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 ## Get to Know the Author
 **Sam Morley**  is an experienced lecturer in mathematics and a researcher in pure mathematics. He is currently a research software engineer at the University of Oxford working on the DataSig project. He was previously a lecturer in mathematics at the University of East Anglia and Nottingham Trent University. His research interests lie in functional analysis, especially Banach algebras. Sam has a firm commitment to providing high-quality, inclusive, and enjoyable teaching, with the aim of inspiring his students and spreading his enthusiasm for mathematics.
+
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781804618370">https://packt.link/free-ebook/9781804618370 </a> </p>
