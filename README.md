@@ -1,7 +1,7 @@
-# Applying Math with Python, 2nd Edition
-<a href="<Packtpub book link>?utm_source=github&utm_medium=repository&utm_campaign=<13-P ISBN>"><img src="https://static.packt-cdn.com/products/<13-P ISBN>/cover/smaller" alt="Applying Math with Python, 2nd Edition" height="256px" align="right"></a>
+# Applying Math with Python - Second Edition
+<a href="https://www.packtpub.com/product/applying-math-with-python-second-edition/9781804618370"><img src="https://static.packt-cdn.com/products/9781804618370/cover/smaller" alt="Applying Math with Python - Second Edition" height="256px" align="right"></a>
 
-This is the code repository for [<Book name>](<Packtpub book link>?utm_source=github&utm_medium=repository&utm_campaign=<13-P ISBN>), published by Packt.
+This is the code repository for [Applying Math with Python - Second Edition](https://www.packtpub.com/product/applying-math-with-python-second-edition/9781804618370), published by Packt.
 
 **Over 70 practical recipes for solving real-world computational math problems**
 
